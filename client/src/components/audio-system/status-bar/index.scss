@@ -1,0 +1,21 @@
+#title {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+#artist {
+  font-size: 2rem;
+  padding: 0 0 0 1rem ;
+
+  &::after {
+    content: "-";
+    padding: 0rem 1rem;
+  }
+}
+
+#duration {
+  font-size: 2rem;
+  padding:  0 1rem 0 0;
+}
+
+
